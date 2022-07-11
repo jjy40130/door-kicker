@@ -13,7 +13,7 @@ namespace TeamH4C.JaeyunJung {
 		[SerializeField, BoxGroup("Default")]
 		private float _kickCooldown = 0f;
 		
-		private static bool _quitProgram = false;
+		private static bool _quitProgram = true;
 		private Animator _animator = null;
 		private float _currentKickCooldown = 0f;
 
